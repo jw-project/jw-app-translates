@@ -1,7 +1,7 @@
-import { enUS } from '../i18n/en-US';
-import { ptBR } from '../i18n/pt-BR';
+import { enUS, esMX, ptBR } from '../i18n/';
 
 export const allI18n = {
   'en-US': enUS,
   'pt-BR': ptBR,
+  'es-MX': esMX,
 };
