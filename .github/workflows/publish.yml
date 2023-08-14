@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FIREBASE_AUTH_DEV: ${{ secrets.FIREBASE_AUTH_DEV }}
 
     steps:
     - name: Checkout repository
