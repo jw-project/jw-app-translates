@@ -12,13 +12,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Configurar Node.js
-      uses: actions/setup-node@v2
+    - name: Config Node.js
+      uses: actions/setup-node@v3
       with:
         node-version: 18
 
-    - name: Instalar pnpm
+    - name: Install pnpm
       run: npm install -g pnpm
 
-    - name: Executar pnpm start
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Publish i18n on firebase remote config
       run: pnpm start
