@@ -1,62 +1,90 @@
 import { z } from 'zod';
 
-export const schema = z.object({
-  menu: z.object({
-    categories: z.object({ congregation: z.string(), people: z.string() }),
-    congregation: z.string(),
-    groups: z.string(),
-    events: z.string(),
-    families: z.string(),
-    publishers: z.string(),
-  }),
-  common: z.object({
-    'saved-success': z.string(),
-    'required-field': z.string(),
-    'invalid-field': z.string(),
-    'error-title': z.string(),
-    'bad-request': z.string(),
-    '400-description': z.string(),
-    'unauthorized-request': z.string(),
-    '401-description': z.string(),
-    'forbidden-request': z.string(),
-    '403-description': z.string(),
-    'not-found-request': z.string(),
-    '404-description': z.string(),
-    save: z.string(),
-    'go-back': z.string(),
-  }),
-  enum: z.object({
-    week: z.object({
-      MONDAY: z.string(),
-      TUESDAY: z.string(),
-      WEDNESDAY: z.string(),
-      THURSDAY: z.string(),
-      FRIDAY: z.string(),
-      SATURDAY: z.string(),
-      SUNDAY: z.string(),
-    }),
-  }),
-  routes: z.object({
-    index: z.object({
-      welcome: z.string(),
-      'login-not-found': z.string(),
-      'include-email-in-profile': z.string(),
-      'refresh-page': z.string(),
-      'reload-button': z.string(),
-      'new-congregation-text': z.string(),
-      'access-congregation-button': z.string(),
-    }),
-    login: z.object({ wait: z.string(), description: z.string() }),
-    congregation: z.object({
-      id: z.string(),
-      name: z.string(),
-      number: z.string(),
-      address: z.string(),
-      'midweek-meeting-day': z.string(),
-      'weekend-meeting-day': z.string(),
-      'congregation-already-exists': z.string(),
-    }),
-  }),
-});
+const optionalString = z.string().optional();
+
+export const schema = z
+  .object({
+    menu: z
+      .object({
+        categories: z
+          .object({
+            congregation: optionalString,
+            people: optionalString,
+          })
+          .strict(),
+        congregation: optionalString,
+        groups: optionalString,
+        events: optionalString,
+        families: optionalString,
+        publishers: optionalString,
+      })
+      .strict(),
+    common: z
+      .object({
+        'saved-success': optionalString,
+        'required-field': optionalString,
+        'invalid-field': optionalString,
+        'error-title': optionalString,
+        'bad-request': optionalString,
+        '400-description': optionalString,
+        'unauthorized-request': optionalString,
+        '401-description': optionalString,
+        'forbidden-request': optionalString,
+        '403-description': optionalString,
+        'not-found-request': optionalString,
+        '404-description': optionalString,
+        save: optionalString,
+        'go-back': optionalString,
+      })
+      .strict(),
+    enum: z
+      .object({
+        week: z
+          .object({
+            MONDAY: optionalString,
+            TUESDAY: optionalString,
+            WEDNESDAY: optionalString,
+            THURSDAY: optionalString,
+            FRIDAY: optionalString,
+            SATURDAY: optionalString,
+            SUNDAY: optionalString,
+          })
+          .strict(),
+      })
+      .strict(),
+    routes: z
+      .object({
+        index: z
+          .object({
+            welcome: optionalString,
+            'login-not-found': optionalString,
+            'include-email-in-profile': optionalString,
+            'refresh-page': optionalString,
+            'reload-button': optionalString,
+            'new-congregation-text': optionalString,
+            'access-congregation-button': optionalString,
+          })
+          .strict(),
+        login: z
+          .object({
+            wait: optionalString,
+            description: optionalString,
+          })
+          .strict(),
+        congregation: z
+          .object({
+            id: optionalString,
+            name: optionalString,
+            number: optionalString,
+            address: optionalString,
+            'midweek-meeting-day': optionalString,
+            'weekend-meeting-day': optionalString,
+            'congregation-already-exists': optionalString,
+          })
+          .strict(),
+      })
+      .strict(),
+  })
+  .strict();
 
 export type I18n = z.infer<typeof schema>;

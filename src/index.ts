@@ -2,6 +2,7 @@ import { error } from 'console';
 import { config as configDotenv } from 'dotenv';
 import { remoteConfig } from 'firebase-admin';
 import { cert, initializeApp } from 'firebase-admin/app';
+import { exit } from 'process';
 import { ZodError } from 'zod';
 
 import { allI18n } from './all-i18n';
@@ -37,11 +38,16 @@ export const get = async () => {
     });
   } catch (e) {
     const zodError = e as ZodError;
-    error(
-      `Error on ${keyBreak} language, this field is missing: ${zodError.issues[0].path.join(
-        '>',
-      )}`,
-    );
+
+    if (zodError.issues[0].code === 'unrecognized_keys') {
+      error(
+        `Error on ${keyBreak} language, ${
+          zodError.issues[0].message
+        } on: ${zodError.issues[0].path.join('>')}`,
+      );
+    }
+
+    exit(1);
   }
 
   await config.validateTemplate(fullConfig);
