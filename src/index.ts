@@ -32,6 +32,7 @@ export const get = async () => {
         defaultValue: {
           value: JSON.stringify(i18n),
         },
+        valueType: 'JSON',
       };
     });
   } catch (e) {
