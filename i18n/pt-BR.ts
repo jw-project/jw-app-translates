@@ -10,21 +10,22 @@ export const ptBR: I18n = {
     publishers: 'Publicadores',
   },
   common: {
-    'saved-success': 'Salvo',
-    'required-field': 'Esse é um campo obrigatório',
-    'invalid-field': 'Valor inválido',
-    'error-title': 'Ah não!',
-    'bad-request': 'Requisição inválida',
-    '400-description':
-      'Houve um erro que impediu que essa página fosse exibida.',
-    'unauthorized-request': 'Não autorizado',
-    '401-description': 'Infelizmente você não tem acesso à página.',
-    'forbidden-request': 'Acesso negado',
-    '403-description': 'Infelizmente você não tem acesso à página.',
-    'not-found-request': 'Não encontrado',
-    '404-description': 'A página que você está procurando não existe.',
     save: 'Salvar',
     'go-back': 'Voltar para o início',
+    errors: {
+      'required-field': 'Esse é um campo obrigatório',
+      'invalid-field': 'Valor inválido',
+      'error-title': 'Ah não!',
+      'bad-request': 'Requisição inválida',
+      '400-description':
+        'Houve um erro que impediu que essa página fosse exibida.',
+      'unauthorized-request': 'Não autorizado',
+      '401-description': 'Infelizmente você não tem acesso à página.',
+      'forbidden-request': 'Acesso negado',
+      '403-description': 'Infelizmente você não tem acesso à página.',
+      'not-found-request': 'Não encontrado',
+      '404-description': 'A página que você está procurando não existe.',
+    },
   },
   enum: {
     week: {
@@ -62,7 +63,21 @@ export const ptBR: I18n = {
       address: 'Endereço da congregação',
       'midweek-meeting-day': 'Dia da reunião de meio de semana',
       'weekend-meeting-day': 'Dia da reunião de fim de semana',
-      'congregation-already-exists': 'A congregação com esse número já existe',
+      'midweek-meeting-time': 'Horário da reunião de meio de semana',
+      'weekend-meeting-time': 'Horário da reunião de fim de semana',
+      'online-meeting-subtitle': 'Reunião online',
+      'online-meeting-software': 'Software de reunião online',
+      'online-meeting-id': 'ID da reunião online',
+      'online-meeting-dial-number': 'Número de discagem da reunião online',
+      'online-meeting-password': 'Senha da reunião online',
+      'online-meeting-link': 'Link da reunião online',
+      'circuit-subtitle': 'Circuito',
+      'circuit-overseer-name': 'Superintendente de circuito',
+      'circuit-overseer-contact': 'Contato do superintendente de circuito',
+      errors: {
+        'congregation-already-exists':
+          'A congregação com esse número já existe',
+      },
     },
   },
 };

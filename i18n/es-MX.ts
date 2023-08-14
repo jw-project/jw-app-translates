@@ -10,20 +10,22 @@ export const esMX: I18n = {
     publishers: 'Publicadores',
   },
   common: {
-    'saved-success': 'Guardado',
-    'required-field': 'Este es un campo obligatorio',
-    'invalid-field': 'Valor inválido',
-    'error-title': '¡Oh no!',
-    'bad-request': 'Solicitud inválida',
-    '400-description': 'Hubo un error que impidió que esta página se mostrara.',
-    'unauthorized-request': 'No autorizado',
-    '401-description': 'Desafortunadamente, no tienes acceso a la página.',
-    'forbidden-request': 'Acceso denegado',
-    '403-description': 'Desafortunadamente, no tienes acceso a la página.',
-    'not-found-request': 'No encontrado',
-    '404-description': 'La página que estás buscando no existe.',
     save: 'Guardar',
     'go-back': 'Volver al inicio',
+    errors: {
+      'required-field': 'Este es un campo obligatorio',
+      'invalid-field': 'Valor inválido',
+      'error-title': '¡Oh no!',
+      'bad-request': 'Solicitud inválida',
+      '400-description':
+        'Hubo un error que impidió que esta página se mostrara.',
+      'unauthorized-request': 'No autorizado',
+      '401-description': 'Desafortunadamente, no tienes acceso a la página.',
+      'forbidden-request': 'Acceso denegado',
+      '403-description': 'Desafortunadamente, no tienes acceso a la página.',
+      'not-found-request': 'No encontrado',
+      '404-description': 'La página que estás buscando no existe.',
+    },
   },
   enum: {
     week: {
@@ -61,7 +63,10 @@ export const esMX: I18n = {
       address: 'Dirección de la congregación',
       'midweek-meeting-day': 'Día de la reunión a mitad de semana',
       'weekend-meeting-day': 'Día de la reunión del fin de semana',
-      'congregation-already-exists': 'La congregación con ese número ya existe',
+      errors: {
+        'congregation-already-exists':
+          'La congregación con ese número ya existe',
+      },
     },
   },
 };

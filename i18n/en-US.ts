@@ -10,21 +10,22 @@ export const enUS: I18n = {
     publishers: 'Publishers',
   },
   common: {
-    'saved-success': 'Saved',
-    'required-field': 'This is a required field',
-    'invalid-field': 'Invalid value',
-    'error-title': 'Oops!',
-    'bad-request': 'Invalid request',
-    '400-description':
-      'There was an error that prevented this page from showing.',
-    'unauthorized-request': 'Unauthorized',
-    '401-description': 'Unfortunately you do not have access to the page.',
-    'forbidden-request': 'Forbidden',
-    '403-description': 'Unfortunately you do not have access to the page.',
-    'not-found-request': 'Not found',
-    '404-description': 'The page you are looking for does not exist.',
     save: 'Save',
     'go-back': 'Go back to the beginning',
+    errors: {
+      'required-field': 'This is a required field',
+      'invalid-field': 'Invalid value',
+      'error-title': 'Oops!',
+      'bad-request': 'Invalid request',
+      '400-description':
+        'There was an error that prevented this page from showing.',
+      'unauthorized-request': 'Unauthorized',
+      '401-description': 'Unfortunately you do not have access to the page.',
+      'forbidden-request': 'Forbidden',
+      '403-description': 'Unfortunately you do not have access to the page.',
+      'not-found-request': 'Not found',
+      '404-description': 'The page you are looking for does not exist.',
+    },
   },
   enum: {
     week: {
@@ -60,8 +61,10 @@ export const enUS: I18n = {
       address: 'Congregation address',
       'midweek-meeting-day': 'Midweek meeting day',
       'weekend-meeting-day': 'Weekend meeting day',
-      'congregation-already-exists':
-        'The congregation with that number already exists',
+      errors: {
+        'congregation-already-exists':
+          'The congregation with that number already exists',
+      },
     },
   },
 };
