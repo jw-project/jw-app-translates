@@ -1,0 +1,8 @@
+{
+    "files.eol": "\n",
+    "prettier.prettierPath": "./node_modules/prettier",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.debug": true
+}
