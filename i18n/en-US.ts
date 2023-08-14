@@ -2,7 +2,7 @@ import { I18n } from '../src/valitator';
 
 export const enUS: I18n = {
   menu: {
-    categories: { congregation: 'Congregationx', people: 'People' },
+    categories: { congregation: 'Congregation', people: 'People' },
     congregation: 'Congregation',
     groups: 'Groups',
     events: 'Events',
