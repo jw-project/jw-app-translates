@@ -72,6 +72,7 @@ export const ptBR: I18n = {
       'online-meeting-password': 'Senha da reunião online',
       'online-meeting-link': 'Link da reunião online',
       'circuit-subtitle': 'Circuito',
+      'circuit-name': 'Nome do circuito',
       'circuit-overseer-name': 'Superintendente de circuito',
       'circuit-overseer-contact': 'Contato do superintendente de circuito',
       errors: {

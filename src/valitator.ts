@@ -89,6 +89,7 @@ export const schema = z
             'online-meeting-password': optionalString,
             'online-meeting-link': optionalString,
             'circuit-subtitle': optionalString,
+            'circuit-name': optionalString,
             'circuit-overseer-name': optionalString,
             'circuit-overseer-contact': optionalString,
             errors: z.object({
