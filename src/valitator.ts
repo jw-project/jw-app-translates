@@ -51,6 +51,18 @@ export const schema = z
             SUNDAY: optionalString,
           })
           .strict(),
+        event: z
+          .object({
+            CIRCUIT_OVERSEER: optionalString,
+            CIRCUIT_ASSEMBLY: optionalString,
+            CONVENTION: optionalString,
+            MEMORIAL: optionalString,
+            MEETING_DAY_CHANGE: optionalString,
+            NO_MEETING: optionalString,
+            SERVICE_OVERSEER_VISIT: optionalString,
+            OTHER: optionalString,
+          })
+          .strict(),
       })
       .strict(),
     routes: z
@@ -95,6 +107,18 @@ export const schema = z
             errors: z.object({
               'congregation-already-exists': optionalString,
             }),
+          })
+          .strict(),
+        events: z
+          .object({
+            type: optionalString,
+            name: optionalString,
+            description: optionalString,
+            link: optionalString,
+            start_date: optionalString,
+            start_time: optionalString,
+            end_date: optionalString,
+            end_time: optionalString,
           })
           .strict(),
       })

@@ -37,6 +37,7 @@ export const esMX: I18n = {
       SATURDAY: 'Sábado',
       SUNDAY: 'Domingo',
     },
+    event: {},
   },
   routes: {
     index: {
@@ -68,5 +69,6 @@ export const esMX: I18n = {
           'La congregación con ese número ya existe',
       },
     },
+    events: {},
   },
 };

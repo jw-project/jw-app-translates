@@ -37,6 +37,7 @@ export const enUS: I18n = {
       SATURDAY: 'Saturday',
       SUNDAY: 'Sunday',
     },
+    event: {},
   },
   routes: {
     index: {
@@ -66,5 +67,6 @@ export const enUS: I18n = {
           'The congregation with that number already exists',
       },
     },
+    events: {},
   },
 };

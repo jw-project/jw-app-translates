@@ -37,6 +37,16 @@ export const ptBR: I18n = {
       SATURDAY: 'Sábado',
       SUNDAY: 'Domingo',
     },
+    event: {
+      CIRCUIT_OVERSEER: 'Superintendente de Circuito',
+      CIRCUIT_ASSEMBLY: 'Assembleia de Circuito',
+      CONVENTION: 'Convenção',
+      MEMORIAL: 'Memorial',
+      MEETING_DAY_CHANGE: 'Mudança de dia de reunião',
+      NO_MEETING: 'Sem reunião',
+      SERVICE_OVERSEER_VISIT: 'Visita do Superintendente de Serviço',
+      OTHER: 'Outro',
+    },
   },
   routes: {
     index: {
@@ -79,6 +89,16 @@ export const ptBR: I18n = {
         'congregation-already-exists':
           'A congregação com esse número já existe',
       },
+    },
+    events: {
+      type: 'Tipo',
+      name: 'Nome',
+      description: 'Descrição',
+      link: 'Link',
+      start_date: 'Data de início',
+      start_time: 'Horário de início',
+      end_date: 'Data de término',
+      end_time: 'Horário de término',
     },
   },
 };
