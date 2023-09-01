@@ -1,8 +1,8 @@
 import { error } from 'console';
+import { exit } from 'process';
 import { config as configDotenv } from 'dotenv';
 import { remoteConfig } from 'firebase-admin';
 import { cert, initializeApp } from 'firebase-admin/app';
-import { exit } from 'process';
 import { ZodError } from 'zod';
 
 import { allI18n } from './all-i18n';
