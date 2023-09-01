@@ -107,18 +107,18 @@ export const schema = z
             errors: z.object({
               'congregation-already-exists': optionalString,
             }),
-          })
-          .strict(),
-        events: z
-          .object({
-            type: optionalString,
-            name: optionalString,
-            description: optionalString,
-            link: optionalString,
-            start_date: optionalString,
-            start_time: optionalString,
-            end_date: optionalString,
-            end_time: optionalString,
+            events: z
+              .object({
+                type: optionalString,
+                name: optionalString,
+                description: optionalString,
+                link: optionalString,
+                start_date: optionalString,
+                start_time: optionalString,
+                end_date: optionalString,
+                end_time: optionalString,
+              })
+              .strict(),
           })
           .strict(),
       })

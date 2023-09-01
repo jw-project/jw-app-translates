@@ -68,7 +68,7 @@ export const esMX: I18n = {
         'congregation-already-exists':
           'La congregación con ese número ya existe',
       },
+      events: {},
     },
-    events: {},
   },
 };

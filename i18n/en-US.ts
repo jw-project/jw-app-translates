@@ -66,7 +66,7 @@ export const enUS: I18n = {
         'congregation-already-exists':
           'The congregation with that number already exists',
       },
+      events: {},
     },
-    events: {},
   },
 };
