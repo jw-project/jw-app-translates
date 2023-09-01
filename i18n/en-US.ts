@@ -37,7 +37,7 @@ export const enUS: I18n = {
       SATURDAY: 'Saturday',
       SUNDAY: 'Sunday',
     },
-    event: {},
+    'event-type': {},
   },
   routes: {
     index: {

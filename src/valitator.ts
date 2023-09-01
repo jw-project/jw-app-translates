@@ -51,7 +51,7 @@ export const schema = z
             SUNDAY: optionalString,
           })
           .strict(),
-        event: z
+        'event-type': z
           .object({
             CIRCUIT_OVERSEER: optionalString,
             CIRCUIT_ASSEMBLY: optionalString,

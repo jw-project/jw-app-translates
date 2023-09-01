@@ -37,7 +37,7 @@ export const esMX: I18n = {
       SATURDAY: 'Sábado',
       SUNDAY: 'Domingo',
     },
-    event: {},
+    'event-type': {},
   },
   routes: {
     index: {

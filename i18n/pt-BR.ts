@@ -37,7 +37,7 @@ export const ptBR: I18n = {
       SATURDAY: 'Sábado',
       SUNDAY: 'Domingo',
     },
-    event: {
+    'event-type': {
       CIRCUIT_OVERSEER: 'Superintendente de Circuito',
       CIRCUIT_ASSEMBLY: 'Assembleia de Circuito',
       CONVENTION: 'Convenção',
