@@ -14,6 +14,7 @@ export const ptBR: I18n = {
     'go-back': 'Voltar para o início',
     errors: {
       'required-field': 'Esse é um campo obrigatório',
+      'invalid-field-link': 'Link inválido',
       'invalid-field': 'Valor inválido',
       'error-title': 'Ah não!',
       'bad-request': 'Requisição inválida',

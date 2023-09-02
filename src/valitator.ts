@@ -25,6 +25,7 @@ export const schema = z
         'go-back': optionalString,
         errors: z.object({
           'required-field': optionalString,
+          'invalid-field-link': optionalString,
           'invalid-field': optionalString,
           'error-title': optionalString,
           'bad-request': optionalString,
