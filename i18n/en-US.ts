@@ -12,6 +12,7 @@ export const enUS: I18n = {
   common: {
     save: 'Save',
     'go-back': 'Go back to the beginning',
+    'empty-state': {},
     errors: {
       'required-field': 'This is a required field',
       'invalid-field': 'Invalid value',

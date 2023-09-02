@@ -12,6 +12,11 @@ export const ptBR: I18n = {
   common: {
     save: 'Salvar',
     'go-back': 'Voltar para o início',
+    'empty-state': {
+      title: 'Adicione um novo item',
+      description: 'Clique no botão abaixo para adicionar um novo item.',
+      button: 'Novo',
+    },
     errors: {
       'required-field': 'Esse é um campo obrigatório',
       'invalid-field-link': 'Link inválido',

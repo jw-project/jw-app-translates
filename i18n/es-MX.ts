@@ -12,6 +12,7 @@ export const esMX: I18n = {
   common: {
     save: 'Guardar',
     'go-back': 'Volver al inicio',
+    'empty-state': {},
     errors: {
       'required-field': 'Este es un campo obligatorio',
       'invalid-field': 'Valor inválido',

@@ -23,6 +23,11 @@ export const schema = z
       .object({
         save: optionalString,
         'go-back': optionalString,
+        'empty-state': z.object({
+          title: optionalString,
+          description: optionalString,
+          button: optionalString,
+        }),
         errors: z.object({
           'required-field': optionalString,
           'invalid-field-link': optionalString,
