@@ -1,4 +1,4 @@
-import { I18n } from '../src/valitator';
+import { I18n } from '../src/validator';
 
 export const ptBR: I18n = {
   menu: {
@@ -11,6 +11,7 @@ export const ptBR: I18n = {
   },
   common: {
     save: 'Salvar',
+    delete: 'Excluir',
     'go-back': 'Voltar para o início',
     'empty-state': {
       title: 'Adicione um novo item',

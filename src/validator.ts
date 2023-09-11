@@ -22,6 +22,7 @@ export const schema = z
     common: z
       .object({
         save: optionalString,
+        delete: optionalString,
         'go-back': optionalString,
         'empty-state': z.object({
           title: optionalString,

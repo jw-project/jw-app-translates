@@ -1,4 +1,4 @@
-import { I18n } from '../src/valitator';
+import { I18n } from '../src/validator';
 
 export const enUS: I18n = {
   menu: {

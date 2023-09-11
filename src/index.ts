@@ -6,7 +6,7 @@ import { cert, initializeApp } from 'firebase-admin/app';
 import { ZodError } from 'zod';
 
 import { allI18n } from './all-i18n';
-import { schema } from './valitator';
+import { schema } from './validator';
 
 export const get = async () => {
   configDotenv();
