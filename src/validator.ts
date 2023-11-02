@@ -24,6 +24,7 @@ export const schema = z
         save: optionalString,
         delete: optionalString,
         'go-back': optionalString,
+        'no-date': optionalString,
         'empty-state': z.object({
           title: optionalString,
           description: optionalString,

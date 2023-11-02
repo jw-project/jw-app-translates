@@ -13,6 +13,7 @@ export const ptBR: I18n = {
     save: 'Salvar',
     delete: 'Excluir',
     'go-back': 'Voltar para o início',
+    'no-date': 'Sem data',
     'empty-state': {
       title: 'Adicione um novo item',
       description: 'Clique no botão abaixo para adicionar um novo item.',
