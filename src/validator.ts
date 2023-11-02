@@ -119,16 +119,20 @@ export const schema = z
             }),
             events: z
               .object({
-                event: optionalString,
-                date: optionalString,
-                type: optionalString,
-                name: optionalString,
-                description: optionalString,
-                link: optionalString,
-                start_date: optionalString,
-                start_time: optionalString,
-                end_date: optionalString,
-                end_time: optionalString,
+                table: z.object({
+                  event: optionalString,
+                  date: optionalString,
+                }),
+                form: z.object({
+                  type: optionalString,
+                  name: optionalString,
+                  description: optionalString,
+                  link: optionalString,
+                  start_date: optionalString,
+                  start_time: optionalString,
+                  end_date: optionalString,
+                  end_time: optionalString,
+                }),
               })
               .strict(),
           })
