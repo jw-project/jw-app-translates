@@ -10,7 +10,9 @@ export const ptBR: I18n = {
     publishers: 'Publicadores',
   },
   common: {
+    new: 'Novo',
     save: 'Salvar',
+    edit: 'Editar',
     delete: 'Excluir',
     'go-back': 'Voltar para o início',
     'no-date': 'Sem data',
@@ -98,6 +100,8 @@ export const ptBR: I18n = {
           'A congregação com esse número já existe',
       },
       events: {
+        event: 'Evento',
+        date: 'Data',
         type: 'Tipo',
         name: 'Nome',
         description: 'Descrição',

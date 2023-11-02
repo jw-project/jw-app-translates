@@ -21,7 +21,9 @@ export const schema = z
       .strict(),
     common: z
       .object({
+        new: optionalString,
         save: optionalString,
+        edit: optionalString,
         delete: optionalString,
         'go-back': optionalString,
         'no-date': optionalString,
@@ -117,6 +119,8 @@ export const schema = z
             }),
             events: z
               .object({
+                event: optionalString,
+                date: optionalString,
                 type: optionalString,
                 name: optionalString,
                 description: optionalString,
