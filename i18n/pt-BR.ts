@@ -103,6 +103,7 @@ export const ptBR: I18n = {
         table: {
           event: 'Evento',
           date: 'Data',
+          actions: 'Ações',
         },
         form: {
           type: 'Tipo',
