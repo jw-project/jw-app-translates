@@ -10,6 +10,8 @@ export const commonValidator = z
     delete: optionalString,
     'go-back': optionalString,
     'no-date': optionalString,
+    'navegation-next-button': optionalString,
+    'navegation-back-button': optionalString,
     'empty-state': z.object({
       title: optionalString,
       description: optionalString,

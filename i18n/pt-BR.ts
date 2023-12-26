@@ -16,6 +16,8 @@ export const ptBR: I18n = {
     delete: 'Excluir',
     'go-back': 'Voltar para o início',
     'no-date': 'Sem data',
+    'navegation-next-button': 'Próximo',
+    'navegation-back-button': 'Anterior',
     'empty-state': {
       title: 'Adicione um novo item',
       description: 'Clique no botão abaixo para adicionar um novo item.',
