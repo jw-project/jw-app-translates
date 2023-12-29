@@ -8,6 +8,8 @@ export const commonValidator = z
     save: optionalString,
     edit: optionalString,
     delete: optionalString,
+    yes: optionalString,
+    no: optionalString,
     'go-back': optionalString,
     'no-date': optionalString,
     'navegation-next-button': optionalString,

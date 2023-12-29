@@ -14,6 +14,8 @@ export const ptBR: I18n = {
     save: 'Salvar',
     edit: 'Editar',
     delete: 'Excluir',
+    yes: 'Sim',
+    no: 'Não',
     'go-back': 'Voltar para o início',
     'no-date': 'Sem data',
     'navegation-next-button': 'Próximo',
