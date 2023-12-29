@@ -4,6 +4,8 @@ import { optionalString } from '../../consts';
 
 export const eventsValidator = z
   .object({
+    'delete-modal': optionalString,
+    'delete-modal_plural': optionalString,
     table: z.object({
       event: optionalString,
       date: optionalString,

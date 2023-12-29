@@ -102,6 +102,8 @@ export const ptBR: I18n = {
           'A congregação com esse número já existe',
       },
       events: {
+        'delete-modal': 'Tem certeza que deseja excluir esse evento?',
+        'delete-modal_plural': 'Tem certeza que deseja excluir esses eventos?',
         table: {
           event: 'Evento',
           date: 'Data',
