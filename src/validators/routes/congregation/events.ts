@@ -16,10 +16,13 @@ export const eventsValidator = z
       name: optionalString,
       description: optionalString,
       link: optionalString,
-      start_date: optionalString,
-      start_time: optionalString,
-      end_date: optionalString,
-      end_time: optionalString,
+      'start-date': optionalString,
+      'start-time': optionalString,
+      'end-date': optionalString,
+      'end-time': optionalString,
+      errors: z.object({
+        'end-date-before-start-date': optionalString,
+      }),
     }),
   })
   .strict();

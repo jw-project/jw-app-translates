@@ -69,7 +69,9 @@ export const enUS: I18n = {
       },
       events: {
         table: {},
-        form: {},
+        form: {
+          errors:{}
+        },
       },
     },
   },

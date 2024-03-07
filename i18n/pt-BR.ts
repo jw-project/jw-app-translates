@@ -116,10 +116,14 @@ export const ptBR: I18n = {
           name: 'Nome',
           description: 'Descrição',
           link: 'Link',
-          start_date: 'Data de início',
-          start_time: 'Horário de início',
-          end_date: 'Data de término',
-          end_time: 'Horário de término',
+          'start-date': 'Data de início',
+          'start-time': 'Horário de início',
+          'end-date': 'Data de término',
+          'end-time': 'Horário de término',
+          errors: {
+            'end-date-before-start-date':
+              'A data de término não pode ser antes da data de início',
+          },
         },
       },
     },

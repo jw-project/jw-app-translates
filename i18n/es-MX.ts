@@ -71,7 +71,9 @@ export const esMX: I18n = {
       },
       events: {
         table: {},
-        form: {},
+        form: {
+          errors:{}
+        },
       },
     },
   },
