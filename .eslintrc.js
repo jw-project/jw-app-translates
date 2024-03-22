@@ -48,24 +48,8 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-    //vitest rules
-    'vitest/valid-expect': ['error'],
-    'vitest/no-conditional-in-test': ['error'],
-    'vitest/no-conditional-expect': ['error'],
-    'vitest/no-conditional-tests': ['error'],
-    'vitest/valid-title': ['error'],
-    'vitest/prefer-to-have-length': ['error'],
-    'vitest/prefer-each': ['error'],
-    'vitest/no-identical-title': ['error'],
-    'vitest/no-disabled-tests': ['error'],
     //etc rules
     'etc/no-commented-out-code': 'error',
   },
-  plugins: [
-    'eslint-plugin-prettier',
-    'sonarjs',
-    '@typescript-eslint',
-    'etc',
-    'vitest',
-  ],
+  plugins: ['eslint-plugin-prettier', 'sonarjs', '@typescript-eslint', 'etc'],
 };
