@@ -70,8 +70,19 @@ export const enUS: I18n = {
       events: {
         table: {},
         form: {
-          errors:{}
+          errors: {},
         },
+      },
+    },
+    people: {
+      publishers: {
+        table: {},
+        tabs: {},
+        'information-form': {},
+        'spiritual-form': {},
+        'assign-form': {},
+        'records-form': {},
+        'emergency-form': {},
       },
     },
   },

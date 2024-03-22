@@ -127,5 +127,35 @@ export const ptBR: I18n = {
         },
       },
     },
+    people: {
+      publishers: {
+        table: {
+          name: 'Nome',
+          surname: 'Sobrenome',
+        },
+        tabs: {
+          information: 'Informação',
+          spiritual: 'Espiritual',
+          assign: 'Designações',
+          records: 'Registros',
+          emergency: 'Emergência',
+        },
+        'information-form': {
+          name: 'Nome',
+          surname: 'Sobrenome',
+        },
+        'spiritual-form': {
+          baptism: 'Data do batismo',
+          auxiliary: 'Pioneiro auxiliar',
+          regular: 'Pioneiro regular',
+          elder: 'Ancião',
+          servant: 'Servo ministerial',
+          'last-report': 'Último relatório',
+        },
+        'assign-form': {},
+        'records-form': {},
+        'emergency-form': {},
+      },
+    },
   },
 };
