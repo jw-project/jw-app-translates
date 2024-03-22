@@ -1,7 +1,8 @@
 {
   "include": [
     "./src/**/*.ts",
-    "./i18n/**/*.ts"
+    "./i18n/**/*.ts",
+    ".eslintrc.js"
   ],
   "exclude": [
     "node_modules"
