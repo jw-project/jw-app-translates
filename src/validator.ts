@@ -15,3 +15,14 @@ export const schema = z
   .strict();
 
 export type I18n = z.infer<typeof schema>;
+
+type Path<T> = T extends object
+  ? {
+      [K in keyof T]-?: T[K] extends object
+        ? //@ts-ignore
+          `${K}.${Path<T[K]>}`
+        : K;
+    }[keyof T]
+  : '';
+
+export type TranslatePathString = Path<I18n>;
