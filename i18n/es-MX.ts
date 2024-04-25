@@ -75,6 +75,12 @@ export const esMX: I18n = {
           errors: {},
         },
       },
+      informationsBoard: {
+        table: {},
+        form: {
+          errors: {},
+        },
+      },
     },
     people: {
       publishers: {
