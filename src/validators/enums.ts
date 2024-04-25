@@ -27,5 +27,10 @@ export const enumsValidator = z
         OTHER: optionalString,
       })
       .strict(),
+      'informationBoard-type': z
+        .object({
+          INFORMATION: optionalString,
+        })
+        .strict(),
   })
   .strict();

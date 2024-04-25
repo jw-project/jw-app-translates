@@ -73,6 +73,12 @@ export const enUS: I18n = {
           errors: {},
         },
       },
+      informationsBoard: {
+        table: {},
+        form: {
+          errors: {},
+        },
+      },
     },
     people: {
       publishers: {

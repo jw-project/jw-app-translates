@@ -126,6 +126,27 @@ export const ptBR: I18n = {
           },
         },
       },
+      informationsBoard: {
+        'delete-modal': 'Tem certeza que deseja excluir esse anúncio?',
+        'delete-modal_plural': 'Tem certeza que deseja excluir esses anúncios?',
+        table: {
+          informationBoard: 'Quadro de Anúncio',
+          date: 'Data',
+          actions: 'Ações',
+        },
+        form: {
+          type: 'Tipo',
+          title: 'Título',
+          description: 'Descrição',
+          link: 'Link',
+          'start-date': 'Data de início',
+          'end-date': 'Data de término',
+          errors: {
+            'end-date-before-start-date':
+              'A data de término não pode ser antes da data de início',
+          },
+        },
+      },
     },
     people: {
       publishers: {
