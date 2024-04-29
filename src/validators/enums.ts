@@ -29,7 +29,12 @@ export const enumsValidator = z
       .strict(),
       'informationBoard-type': z
         .object({
+          ACCOUNTS: optionalString,
+          DESIGNATIONS: optionalString,
           INFORMATION: optionalString,
+          TERRITORY: optionalString,
+          WITNESSING:optionalString,
+          OTHERS: optionalString,
         })
         .strict(),
   })
