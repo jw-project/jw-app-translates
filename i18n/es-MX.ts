@@ -89,7 +89,7 @@ export const esMX: I18n = {
         'information-form': {},
         'spiritual-form': {},
         'assign-form': {},
-        'records-form': {},
+        'records-grid': {},
         'emergency-form': {},
       },
     },
