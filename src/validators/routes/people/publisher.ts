@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 import { optionalString } from '../../../validators/consts';
+import { recordsGridValidator } from './records-grid';
 
 export const publisherValidator = z
   .object({
@@ -29,7 +30,7 @@ export const publisherValidator = z
         'last-report': optionalString,
       }),
       'assign-form': z.object({}),
-      'records-form': z.object({}),
+      'records-grid': recordsGridValidator,
       'emergency-form': z.object({}),
     }),
   })
