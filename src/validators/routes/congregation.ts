@@ -2,6 +2,7 @@ import { z } from 'zod';
 
 import { optionalString } from '../consts';
 import { eventsValidator } from './congregation/events';
+import { informationsBoardValidator } from './congregation/informations-board';
 
 export const congregationValidator = z
   .object({
@@ -27,5 +28,6 @@ export const congregationValidator = z
       'congregation-already-exists': optionalString,
     }),
     events: eventsValidator,
+    informationsBoard: informationsBoardValidator,
   })
   .strict();
