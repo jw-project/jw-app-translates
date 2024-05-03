@@ -6,6 +6,7 @@ export const enUS: I18n = {
     congregation: 'Congregation',
     groups: 'Groups',
     events: 'Events',
+    informationsBoard: 'Informations Board',
     families: 'Families',
     publishers: 'Publishers',
   },
@@ -39,6 +40,7 @@ export const enUS: I18n = {
       SUNDAY: 'Sunday',
     },
     'event-type': {},
+    'informationBoard-type': {},
   },
   routes: {
     index: {
@@ -68,6 +70,12 @@ export const enUS: I18n = {
           'The congregation with that number already exists',
       },
       events: {
+        table: {},
+        form: {
+          errors: {},
+        },
+      },
+      informationsBoard: {
         table: {},
         form: {
           errors: {},

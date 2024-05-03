@@ -6,6 +6,7 @@ export const ptBR: I18n = {
     congregation: 'Congregação',
     groups: 'Grupos',
     events: 'Eventos',
+    informationsBoard: 'Quadro de Anúncios',
     families: 'Famílias',
     publishers: 'Publicadores',
   },
@@ -60,6 +61,14 @@ export const ptBR: I18n = {
       NO_MEETING: 'Sem reunião',
       SERVICE_OVERSEER_VISIT: 'Visita do Superintendente de Serviço',
       OTHER: 'Outro',
+    },
+    'informationBoard-type': {
+      ACCOUNTS: 'Contas',
+      DESIGNATIONS: 'Disgnações',
+      INFORMATION: 'Informações',
+      TERRITORY: 'Territórios',
+      WITNESSING: 'Testemunho',
+      OTHERS: 'Outros',
     },
   },
   routes: {
@@ -120,6 +129,27 @@ export const ptBR: I18n = {
           'start-time': 'Horário de início',
           'end-date': 'Data de término',
           'end-time': 'Horário de término',
+          errors: {
+            'end-date-before-start-date':
+              'A data de término não pode ser antes da data de início',
+          },
+        },
+      },
+      informationsBoard: {
+        'delete-modal': 'Tem certeza que deseja excluir esse anúncio?',
+        'delete-modal_plural': 'Tem certeza que deseja excluir esses anúncios?',
+        table: {
+          informationBoard: 'Quadro de Anúncio',
+          date: 'Data',
+          actions: 'Ações',
+        },
+        form: {
+          type: 'Tipo',
+          title: 'Título',
+          description: 'Descrição',
+          link: 'Link',
+          'start-date': 'Data de início',
+          'end-date': 'Data de término',
           errors: {
             'end-date-before-start-date':
               'A data de término não pode ser antes da data de início',
