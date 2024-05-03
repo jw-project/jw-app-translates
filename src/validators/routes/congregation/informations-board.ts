@@ -1,5 +1,6 @@
-import { optionalString } from 'src/validators/consts';
 import { z } from 'zod';
+
+import { optionalString } from '~/validators/consts';
 
 export const informationsBoardValidator = z
   .object({

@@ -17,6 +17,11 @@
     "target": "ES2019",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
   }
 }

@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { optionalString } from '../../../validators/consts';
+import { optionalString } from '~/validators/consts';
 
 export const recordsGridValidator = z
   .object({

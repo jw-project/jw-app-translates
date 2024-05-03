@@ -1,4 +1,4 @@
-import { I18n } from '../src/validator';
+import { I18n } from '~/validator';
 
 export const ptBR: I18n = {
   menu: {

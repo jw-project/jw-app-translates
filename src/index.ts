@@ -51,7 +51,10 @@ export const get = async () => {
   }
 
   await config.validateTemplate(fullConfig);
-  await config.publishTemplate(fullConfig);
+
+  if (process.env.PUBLISH === 'true') {
+    await config.publishTemplate(fullConfig);
+  }
 };
 
 get();
