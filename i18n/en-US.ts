@@ -40,6 +40,7 @@ export const enUS: I18n = {
       SUNDAY: 'Sunday',
     },
     'event-type': {},
+    'informationBoard-type': {},
   },
   routes: {
     index: {

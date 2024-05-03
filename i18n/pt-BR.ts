@@ -62,6 +62,14 @@ export const ptBR: I18n = {
       SERVICE_OVERSEER_VISIT: 'Visita do Superintendente de Serviço',
       OTHER: 'Outro',
     },
+    'informationBoard-type': {
+      ACCOUNTS: 'Contas',
+      DESIGNATIONS: 'Disgnações',
+      INFORMATION: 'Informações',
+      TERRITORY: 'Territórios',
+      WITNESSING: 'Testemunho',
+      OTHERS: 'Outros',
+    },
   },
   routes: {
     index: {

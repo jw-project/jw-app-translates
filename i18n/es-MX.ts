@@ -40,6 +40,7 @@ export const esMX: I18n = {
       SUNDAY: 'Domingo',
     },
     'event-type': {},
+    'informationBoard-type': {},
   },
   routes: {
     index: {
