@@ -6,6 +6,7 @@ export const ptBR: I18n = {
     congregation: 'Congregação',
     groups: 'Grupos',
     events: 'Eventos',
+    informationsBoard: 'Quadro de Anúncios',
     families: 'Famílias',
     publishers: 'Publicadores',
   },
