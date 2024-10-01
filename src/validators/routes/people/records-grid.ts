@@ -5,6 +5,7 @@ import { optionalString } from '~/validators/consts';
 export const recordsGridValidator = z
   .object({
     year: optionalString,
+    'month-indicative': optionalString,
     shared: optionalString,
     studies: optionalString,
     'auxiliary-pioneer': optionalString,

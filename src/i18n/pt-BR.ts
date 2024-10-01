@@ -185,6 +185,7 @@ export const ptBR: I18n = {
         'assign-form': {},
         'records-grid': {
           year: 'Ano de Serviço',
+          'month-indicative': 'Mês',
           shared: 'Participou no ministério',
           studies: 'Estudos bíblicos',
           'auxiliary-pioneer': 'Pioneiro auxiliar',
