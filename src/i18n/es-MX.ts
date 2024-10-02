@@ -6,7 +6,7 @@ export const esMX: I18n = {
     congregation: 'Congregación',
     groups: 'Grupos',
     events: 'Eventos',
-    informationsBoard: 'Quadro de Anuncios',
+    'informations-board': 'Quadro de Anuncios',
     families: 'Familias',
     publishers: 'Publicadores',
   },

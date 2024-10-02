@@ -6,7 +6,7 @@ export const enUS: I18n = {
     congregation: 'Congregation',
     groups: 'Groups',
     events: 'Events',
-    informationsBoard: 'Informations Board',
+    'informations-board': 'Informations Board',
     families: 'Families',
     publishers: 'Publishers',
   },

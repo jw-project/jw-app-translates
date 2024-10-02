@@ -13,7 +13,7 @@ export const menuValidator = z
     congregation: optionalString,
     groups: optionalString,
     events: optionalString,
-    informationsBoard: optionalString,
+    'informations-board': optionalString,
     families: optionalString,
     publishers: optionalString,
   })
