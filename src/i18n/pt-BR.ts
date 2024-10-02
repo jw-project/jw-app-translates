@@ -135,7 +135,7 @@ export const ptBR: I18n = {
           },
         },
       },
-      informationsBoard: {
+      'informations-board': {
         'delete-modal': 'Tem certeza que deseja excluir esse anúncio?',
         'delete-modal_plural': 'Tem certeza que deseja excluir esses anúncios?',
         table: {

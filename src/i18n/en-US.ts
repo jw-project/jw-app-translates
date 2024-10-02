@@ -75,7 +75,7 @@ export const enUS: I18n = {
           errors: {},
         },
       },
-      informationsBoard: {
+      'informations-board': {
         table: {},
         form: {
           errors: {},

@@ -77,7 +77,7 @@ export const esMX: I18n = {
           errors: {},
         },
       },
-      informationsBoard: {
+      'informations-board': {
         table: {},
         form: {
           errors: {},

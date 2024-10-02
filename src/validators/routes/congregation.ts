@@ -28,6 +28,6 @@ export const congregationValidator = z
       'congregation-already-exists': optionalString,
     }),
     events: eventsValidator,
-    informationsBoard: informationsBoardValidator,
+    'informations-board': informationsBoardValidator,
   })
   .strict();
