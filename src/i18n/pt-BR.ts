@@ -139,7 +139,7 @@ export const ptBR: I18n = {
         'delete-modal': 'Tem certeza que deseja excluir esse anúncio?',
         'delete-modal_plural': 'Tem certeza que deseja excluir esses anúncios?',
         table: {
-          informationBoard: 'Quadro de Anúncio',
+          information: 'Anúncio',
           date: 'Data',
           actions: 'Ações',
         },

@@ -7,7 +7,7 @@ export const informationsBoardValidator = z
     'delete-modal': optionalString,
     'delete-modal_plural': optionalString,
     table: z.object({
-      informationBoard: optionalString,
+      information: optionalString,
       date: optionalString,
       actions: optionalString,
     }),
