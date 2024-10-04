@@ -32,6 +32,8 @@ export const commonValidator = z
       '403-description': optionalString,
       'not-found-request': optionalString,
       '404-description': optionalString,
+      'invalid-file-size': optionalString,
+      'invalid-file-type': optionalString,
     }),
   })
   .strict();

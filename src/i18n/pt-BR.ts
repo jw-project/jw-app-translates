@@ -40,6 +40,8 @@ export const ptBR: I18n = {
       '403-description': 'Infelizmente você não tem acesso à página.',
       'not-found-request': 'Não encontrado',
       '404-description': 'A página que você está procurando não existe.',
+      'invalid-file-size': 'Tamanho de arquivo inválido',
+      'invalid-file-type': 'Tipo de arquivo inválido',
     },
   },
   enum: {
