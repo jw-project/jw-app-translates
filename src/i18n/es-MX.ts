@@ -14,6 +14,7 @@ export const esMX: I18n = {
     save: 'Guardar',
     'go-back': 'Volver al inicio',
     'empty-state': {},
+    upload: {},
     errors: {
       'required-field': 'Este es un campo obligatorio',
       'invalid-field': 'Valor inválido',

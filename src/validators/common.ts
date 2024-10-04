@@ -19,6 +19,10 @@ export const commonValidator = z
       description: optionalString,
       button: optionalString,
     }),
+    upload: z.object({
+      title: optionalString,
+      subtitle: optionalString,
+    }),
     errors: z.object({
       'required-field': optionalString,
       'invalid-field-link': optionalString,

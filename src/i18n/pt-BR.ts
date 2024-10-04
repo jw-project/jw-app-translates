@@ -26,6 +26,10 @@ export const ptBR: I18n = {
       description: 'Clique no botão abaixo para adicionar um novo item.',
       button: 'Novo',
     },
+    upload: {
+      title: '*Clique para fazer upload* ou arraste o arquivo',
+      subtitle: '{types} (máximo de {size}MB)',
+    },
     errors: {
       'required-field': 'Esse é um campo obrigatório',
       'invalid-field-link': 'Link inválido',

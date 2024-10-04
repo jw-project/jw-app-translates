@@ -14,6 +14,7 @@ export const enUS: I18n = {
     save: 'Save',
     'go-back': 'Go back to the beginning',
     'empty-state': {},
+    upload: {},
     errors: {
       'required-field': 'This is a required field',
       'invalid-field': 'Invalid value',
